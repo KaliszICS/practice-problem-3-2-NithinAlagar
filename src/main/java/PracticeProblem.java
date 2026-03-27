@@ -4,7 +4,7 @@ public class PracticeProblem {
 
 	}
 
-	public static isFive(int num){
+	public static String isFive(int num){
 		if (num == 5){
 			return "The number is Five";
 
@@ -15,7 +15,7 @@ public class PracticeProblem {
 
 	}
 
-	public static positiveOrNegative(double num){
+	public static String positiveOrNegative(double num){
 		if (num>0){
 			return "Positive";
 		}
@@ -25,7 +25,7 @@ public class PracticeProblem {
 		
 	}
 
-	public static highOrLow(int num) {
+	public static String highOrLow(int num) {
 		if (num>100){
 			return "High";
 		}
@@ -33,9 +33,12 @@ public class PracticeProblem {
 			return "Low";
 		}
 	}
-	public static isHello(String word){
+	public static String isHello(String word){
 		if (word.equals("Hello")){
-			return "The word is Hello"
+			return "The word is Hello";
+		}
+		else {
+			return "The word is not Hello";
 		}
 	}
 }
