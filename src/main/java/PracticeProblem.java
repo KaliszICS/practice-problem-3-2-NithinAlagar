@@ -1,3 +1,16 @@
+/**
+
+        * File: Lesson 3.2 - if and else statements
+
+        * Author: Nithin.A
+
+        * Date Created: March 29, 2026
+
+        * Date Last Modified: March 30, 2026
+
+        */
+
+
 public class PracticeProblem {
 
 	public static void main(String args[]) {
